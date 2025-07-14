@@ -1,0 +1,143 @@
+/* General Styles */
+body {
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* Container */
+.container1, .container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+/* Navigation Bar */
+.nav-bar {
+    width: 100%;
+    background: #333;
+    padding: 10px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-menu a:hover {
+    color: yellow;
+}
+
+/* Popup Form */
+.popup-form-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.popup-form {
+    text-align: center;
+}
+
+.close-btn {
+    cursor: pointer;
+    font-size: 24px;
+    float: right;
+}
+
+/* Gallery */
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+
+.slide img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Cards */
+.card, .card1 {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Reviews */
+.review-container {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.review-more-btn {
+    background: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer a {
+    color: yellow;
+    text-decoration: none;
+}
